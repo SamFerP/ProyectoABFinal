@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Contactanos - Toys</title>
+</head>
+<body class="contactanos-page">
+    <header>
+        <nav>
+            <img src="https://mir-s3-cdn-cf.behance.net/projects/404/5acfce114699479.Y3JvcCw4MjUsNjQ1LDE3NywyMDA.png" alt="Logo de la Tienda">
+            <a class="navelement" href="quienes-somos.html">Quienes Somos</a>
+            <a class="navelement" href="Tienda.html">Tienda</a>
+            <a class="navelement" href="contacto.html">Contáctanos</a>
+        </nav>
+        <h1>Creciendo juntos, jugando juntos.</h1>
+        <img src="https://image.freepik.com/vector-gratis/tres-cajas-llenas-juguetes-blanco_1308-38899.jpg" style="width: 50%" alt="Varios juguetes">
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Contacta con nosotros</h2>
+            <form action="enviar_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <label for="correo">Enviar una copia a:</label>
+                <input type="email" id="correo" name="correo" value="toys.tutienda@gmail.com" readonly>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="privacidad.html">Política de Privacidad</a>
+            <a href="cookies.html">Cookies</a>
+            <a href="contacto.html">Contáctanos</a>
+        </div>
+        <div>
+
+            <img src="https://mir-s3-cdn-cf.behance.net/projects/404/5acfce114699479.Y3JvcCw4MjUsNjQ1LDE3NywyMDA.png" alt="Logo de la Tienda">
+        </div>
+        <div>
+            <h2>Contáctanos</h2>
+            <p>c/ Consuegra 3 28033 Madrid</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.0343988222567!2d-3.68011840586308!3d40.47450400139232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229475fc7e749%3A0x71a6fb4707b13a23!2sC.%20Consuegra%2C%203%2C%2028036%20Madrid!5e0!3m2!1ses!2ses!4v1695639424531!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
